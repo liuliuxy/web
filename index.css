@@ -1,0 +1,58 @@
+
+body{
+  margin: 0 auto;
+}
+.tilte{
+    font-size:1.3rem;
+    letter-spacing: 0.5rem;
+    margin-left: 3rem;
+  }
+  .main{
+    background:rgb(228, 228, 228);
+    height:35rem;
+    position: relative;
+    top: -20px; 
+    margin: 0 auto;
+  }
+  .name{
+    margin-left: 3rem;
+    color: cornflowerblue;
+  }
+  
+  .date{
+    margin-left: 1.5rem;
+    color:rgb(155, 155, 155);
+    display: inline;
+  }
+  .page-section-gap{
+    box-sizing: border-box;
+    /* padding: 0 30rpx; */
+  }
+  .bj{
+    width: 23rem;
+    height: 22rem; 
+  
+  }
+  
+  .bj-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+   
+  }
+  
+  .wx{
+    position: relative;
+    top:-17.5rem;
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .yue{
+    position: relative;
+    top: -9rem;
+    left:2rem;
+    color:grey;
+  }
