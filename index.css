@@ -1,6 +1,6 @@
 
 body{
-  margin: 0 auto;
+
 }
 .tilte{
     font-size:1.3rem;
@@ -8,11 +8,12 @@ body{
     margin-left: 3rem;
   }
   .main{
-    background:rgb(228, 228, 228);
+
     height:35rem;
     position: relative;
     top: -20px; 
     margin: 0 auto;
+    
   }
   .name{
     margin-left: 3rem;
@@ -55,4 +56,71 @@ body{
     top: -9rem;
     left:2rem;
     color:grey;
+    font-family: '微软雅黑';
   }
+
+  @media only screen and (max-width:1080px){
+    body{
+     width: 100%;
+    }
+    .tilte{
+        font-size:3rem;
+        letter-spacing: 0.5rem;
+        margin-left: 3rem;
+      }
+      .main{
+        height:60rem;
+        width: 100%;
+        position: relative;
+        top: -3rem; 
+        margin: 0 auto;
+        
+        
+      }
+      .name{
+        margin-left: 5rem;
+        color: cornflowerblue;
+        font-size: 1.8rem;
+      }
+      
+      .date{
+        margin-left: 1.5rem;
+        color:rgb(155, 155, 155);
+        display: inline;
+      }
+      .bj{
+        width: 50rem;
+        height: 40rem; 
+      
+      }
+      
+      .bj-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5rem;
+       
+      }
+      
+      .wx{
+        position: relative;
+        top:-31.5rem;
+        width: 20rem;
+        height: 20rem;
+      }
+    
+      .yue{
+        position: relative;
+        top: -18rem;
+        width: auto;
+        left:5rem;
+        color:grey;
+        font-size:2rem;
+        font-family: '微软雅黑';
+      }
+      html{
+        width: 100%;
+      }
+  }
+  
